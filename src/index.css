@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@theme {
+  --breakpoint-mobile: 480px;
+  --breakpoint-smobile: 380px;
+  --breakpoint-xsmobile: 320px;
+}
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  overflow-x: hidden;
+}
+
+@keyframes rotate-border {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: rotate-border 1.5s linear infinite;
+}
+
+
+
+@media (min-width: 1700px) {
+  .gridCont {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
+}
+
+
