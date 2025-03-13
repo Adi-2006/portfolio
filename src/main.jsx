@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { createBrowserRouter ,createRoutesFromElements,Route,RouterProvider } from 'react-router-dom'
+import { createHashRouter ,createRoutesFromElements,Route,RouterProvider } from 'react-router-dom'
 import About from'./Compo/About.jsx'
 import Contact from './Compo/Contact.jsx'
 import Home from './Compo/Home.jsx'
@@ -10,7 +10,7 @@ import Skills from './Compo/Skills.jsx'
 import Projects from './Compo/Projects.jsx'
 
 
-const Router = createBrowserRouter(
+const Router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element = {<App/>}>
       <Route path='' element = {<Home/>} />
