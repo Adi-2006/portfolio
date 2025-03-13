@@ -43,7 +43,7 @@ function Home() {
             {displayedText}
           </motion.p>
           <div className="bg-gray-400 py-2 px-3 rounded-lg hover:bg-transparent hover:text-teal-500 hover:border hover:border-emerald-500 text-gray-900 font-bold">
-            <a href="https://drive.google.com/file/d/1ahNWOiJaFUtUGQsQDID0S1lZkZxB2Yva/view?usp=sharing" target="_blank">Resume</a>
+            <a href="https://drive.google.com/file/d/1ttDdLs3nsJoSxHwO94-ZP0sKPOVoC49B/view?usp=sharing" target="_blank">Resume</a>
           </div>
         </div>
       </div>
