@@ -15,7 +15,7 @@ function Navbar() {
           <div className="lg:flex items-center sm:hidden gap-4 px-2">
             <div className="relative hover:bg-gray-200 w-[55px] h-[55px] rounded-full xl:block hidden">
               <img
-                src="/logo.png"
+                  src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="logo"
                 className="w-[40px] h-[40px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  "
               />
