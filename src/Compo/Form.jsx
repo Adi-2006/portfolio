@@ -78,7 +78,7 @@ const Form = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full p-2 font-semibold sm:text-xl rounded-2xl dark:hover:border-emerald-500 border dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 border-gray-600 text-white"
+          className="w-full p-2 font-semibold sm:text-xl rounded-2xl dark:hover:border-emerald-500 border dark:bg-transparent bg-white dark:placeholder:text-gray-300 text-gray-800 placeholder:text-gray-700 border-gray-600 dark:text-white"
         />
         <input
           type="email"
@@ -87,7 +87,7 @@ const Form = () => {
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full p-2 font-semibold sm:text-xl rounded-2xl  dark:hover:border-emerald-500  dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 border border-gray-600 text-white"
+          className="w-full p-2 font-semibold sm:text-xl rounded-2xl  dark:hover:border-emerald-500  dark:bg-transparent bg-white dark:placeholder:text-gray-300 text-gray-800 placeholder:text-gray-700 border border-gray-600 dark:text-white"
         />
         <input
           type="tel"
@@ -95,7 +95,7 @@ const Form = () => {
           placeholder="Your Phone"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full font-semibold sm:text-xl p-2 rounded-2xl  dark:hover:border-emerald-500 border dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 border-gray-600 text-white"
+          className="w-full font-semibold sm:text-xl p-2 rounded-2xl  dark:hover:border-emerald-500 border dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 text-gray-800 border-gray-600 dark:text-white"
         />
         <textarea
           name="message"
@@ -103,7 +103,7 @@ const Form = () => {
           value={formData.message}
           onChange={handleChange}
           required
-          className="w-full p-2 font-semibold  dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 rounded-2xl  border dark:hover:border-emerald-500 border-gray-600 text-white"
+          className="w-full p-2 font-semibold  dark:bg-transparent bg-white dark:placeholder:text-gray-300 placeholder:text-gray-700 rounded-2xl  border dark:hover:border-emerald-500 border-gray-600 dark:text-white text-gray-800"
         />
         <button
           type="submit"

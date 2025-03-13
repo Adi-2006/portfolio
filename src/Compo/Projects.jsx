@@ -17,7 +17,7 @@ function Projects() {
   return (
     <>
       {/* div Full Height width */}
-      <div className="w-screen pt-4 h-auto min-h-screen relative pb-20 dark:bg-zinc-500 dark:text-white">
+      <div className="w-screen pt-4 h-auto min-h-screen relative pb-20 bg-zinc-300 dark:bg-zinc-500 dark:text-white">
         {/* 80%div */}
         <div ref={(element) => (divRefs.current[0] = element)} className="w-10/12 mx-auto rounded-2xl  py-4 pb-16 bg-[#bca9b9] dark:bg-[#314565] flex flex-col gap-2 items-center justify-center">
           {/* heading and green light div */}
